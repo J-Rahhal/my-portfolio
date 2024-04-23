@@ -18,8 +18,8 @@ const Banner = () => {
         initial={{ x: -1000, opacity: 0.5 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{
-          delay: 0.5,
-          duration: 2,
+          delay: 0.1,
+          duration: 1,
         }}
       >
         FullStack
@@ -29,8 +29,8 @@ const Banner = () => {
         initial={{ y: 1000, opacity: 0.5 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          delay: 2.2,
-          duration: 2.2,
+          delay: 0.7,
+          duration: 1,
         }}
       >
         Developer
