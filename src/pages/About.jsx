@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import Skills from "../components/Skills";
 import { Link } from "react-router-dom";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/16/solid";
+import Nav from "../components/Nav";
 const About = () => {
   return (
     <div className="h-full flex flex-col items-start gap-y-[12rem] ">
@@ -19,31 +20,12 @@ const About = () => {
         >
           About Me
         </motion.h2>
-        <div className="flex justify-between items-center gap-4 md:gap-8 ">
-          <motion.div
-            initial={{ opacity: 0, scale: 0, x: -500 }}
-            animate={{ x: 0 }}
-            whileInView={{ opacity: 1, scale: 0.95 }}
-            transition={{ duration: 1 }}
-          >
-            <Link to={"/"} className="text-xl">
-              <ArrowLeftIcon className="font-bold w-6 inline-block cursor-pointer links md:w-8" />
-              Home
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0, x: -500 }}
-            animate={{ x: 0 }}
-            whileInView={{ opacity: 1, scale: 0.95 }}
-            transition={{ duration: 1 }}
-          >
-            <Link to={"/projects"} className="text-xl">
-              Projects
-              <ArrowRightIcon className="font-bold w-6 inline-block cursor-pointer links md:w-8" />
-            </Link>
-          </motion.div>
-        </div>
+        <Nav
+          text1={"Home"}
+          link1={"/"}
+          text2={"Projects"}
+          link2={"/projects"}
+        />
       </div>
 
       <div className="mx-auto bg-stone-400">
