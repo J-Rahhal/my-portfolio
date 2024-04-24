@@ -23,16 +23,16 @@ const experience = [
     Location: "Riga, Latvia - Remote",
     text: "Visit Hyundai",
     description:
-      "Contributed in the Frontend development for this project where various front-end technologies were used.(2022) ",
+      "Contributed in the Front-end development of this project focusing on converting the designer’s design specifications into the desired and expected user interface. (2022)",
     icon: "ComputerDesktopIcon",
   },
   {
     id: 4,
-    title: "Moller International ",
+    title: "Moller",
     Location: "Riga, Latvia - Remote",
     text: "Visit Moller",
     description:
-      "Collaborated with teammates on the Frontend development of this projects. (2022)",
+      "Contributed in the Frontend implementation of the designer’s vision to create the desired outcome. (2022)",
     icon: "ComputerDesktopIcon",
   },
 ];
