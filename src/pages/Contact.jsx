@@ -42,10 +42,10 @@ const Contact = () => {
           Contact Me
         </motion.h2>
         <Nav
-          link1={"/"}
-          text1={"Home"}
-          text2={"Projects"}
-          link2={"/projects"}
+          link1={"/projects"}
+          text1={"Projects"}
+          text2={"Home"}
+          link2={"/"}
         />
       </div>
       <div className="flex flex-col gap-12 md:gap-18">
