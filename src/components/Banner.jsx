@@ -14,7 +14,7 @@ const Banner = () => {
   return (
     <div className="mt-2 p-4 flex flex-col gap-2  lg:mt-0 lg:px-12 xl:mt-16 overflow-hidden absolute text-gray-950">
       <motion.h1
-        className="text-[5rem]  lg:text-[10rem]"
+        className="text-[3.5rem] md:text-[6rem] lg:text-[8rem]"
         initial={{ x: -1000, opacity: 0.5 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{
@@ -25,7 +25,7 @@ const Banner = () => {
         FullStack
       </motion.h1>
       <motion.h1
-        className="text-end  text-[5rem] lg:text-[10rem]"
+        className="text-center  text-[3.5rem] md:text-[6rem] lg:text-[8rem]"
         initial={{ y: 1000, opacity: 0.5 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{

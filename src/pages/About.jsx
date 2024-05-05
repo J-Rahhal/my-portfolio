@@ -8,9 +8,9 @@ import Nav from "../components/Nav";
 const About = () => {
   return (
     <div className="h-full flex flex-col items-start gap-y-[12rem] ">
-      <div className="flex justify-between items-center w-full">
+      <div className="flex justify-between items-center w-full py-4 px-2">
         <motion.h2
-          className="text-5xl pl-12 pt-12  lg:text-[4rem] text-gray-950 "
+          className="text-xl  md:text-3xl lg:text-4xl text-gray-950 "
           initial={{ x: -1000, opacity: 0.5 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div className="text-center px-12">
           <motion.p
-            className="text-md pt-12 text-gray-950 leading-8 md:w-3/4 md:mx-auto lg:w-1/2 "
+            className="text-md pt-12 text-gray-950 leading-8 md:w-3/4 md:mx-auto lg:w-1/2 lg:text-xl "
             initial={{ x: -1000, opacity: 0.5 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{

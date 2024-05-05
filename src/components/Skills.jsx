@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <>
       <motion.div
-        className="h-full w-full pt-24 grid gap-12 lg:w-3/4 lg:mx-auto"
+        className="h-full w-full pt-12 grid gap-4 md:gap-6 lg:w-3/4 lg:mx-auto"
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
@@ -44,7 +44,7 @@ const Skills = () => {
                   marginBottom: "10px",
                 }}
               />
-              <h3 className="text-center text-lg font-semibold">
+              <h3 className="text-center text-xs font-semibold lg:text-2xl">
                 {skill.title}
               </h3>
             </motion.div>

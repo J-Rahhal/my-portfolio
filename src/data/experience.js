@@ -1,15 +1,6 @@
 const experience = [
   {
-    id: 1,
-    title: "Graduated MUBS Univerity",
-    Location: "Riga, Latvia - Remote",
-    text: "",
-    description:
-      "Graduated from the Modern University for Business and Science with a Bachelor's degree in Computer Science (2020)",
-    icon: "AcademicCapIcon",
-  },
-  {
-    id: 2,
+    id: ``,
     title: "Monin Syrup",
     Location: "Riga, Latvia - Remote",
     text: "Visit Monin",
@@ -18,7 +9,7 @@ const experience = [
     icon: "ComputerDesktopIcon",
   },
   {
-    id: 3,
+    id: 2,
     title: "Hyundai",
     Location: "Riga, Latvia - Remote",
     text: "Visit Hyundai",
@@ -27,7 +18,7 @@ const experience = [
     icon: "ComputerDesktopIcon",
   },
   {
-    id: 4,
+    id: 3,
     title: "Moller",
     Location: "Riga, Latvia - Remote",
     text: "Visit Moller",

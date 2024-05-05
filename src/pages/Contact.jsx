@@ -28,10 +28,10 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex flex-col justify-around gap-56 bg-stone-400">
+    <div className="flex flex-col justify-around gap-56 bg-stone-400 overflow-y-auto">
       <div className="flex justify-between items-center w-full">
         <motion.h2
-          className="text-5xl pl-12 pt-12  lg:text-[4rem] text-gray-950 "
+          className="text-xl p-4 md:text-3xl  lg:text-4xl text-gray-950 "
           initial={{ x: -1000, opacity: 0.5 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{

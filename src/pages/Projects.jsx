@@ -25,10 +25,10 @@ const IconComponent = ({ name }) => {
 
 const Projects = () => {
   return (
-    <div className="flex flex-col gap-28 bg-stone-400">
-      <div className="flex justify-between items-center w-full">
+    <div className=" h-full overflow-y-auto flex flex-col items-start gap-y-12">
+      <div className="h-full flex justify-between items-center gap-6 py-4 px-2 md:w-full">
         <motion.h2
-          className="text-5xl pl-12 pt-12  lg:text-[4rem] text-gray-950 "
+          className="text-xl md:text-3xl md:pl-8 lg:text-4xl text-gray-950  w-1/2"
           initial={{ x: -1000, opacity: 0.5 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
