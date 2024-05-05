@@ -1,4 +1,4 @@
 [[redirects]]
-from ="joannarahal.netlify.com"
-to="https://joannarahal.onrender.com/"
+from ="/*"
+to="/index.html"
 status = 200
