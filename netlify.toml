@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/*"
+from = "https://joannarahal.netlify.com"
 to = "https://joannarahal.onrender.com"
 status = 200
 force = true
