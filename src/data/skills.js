@@ -21,11 +21,6 @@ export const skills = [
   },
   {
     iconSrc:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-    title: "PHP",
-  },
-  {
-    iconSrc:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     title: "MySQL",
   },
